@@ -51,7 +51,7 @@
                 </span>
             </div>
             <br/> <br/>
-            <asp:Button ID="back_btn" runat="server" Text="Back" Style="max-width: 10%;" OnClick="back_btn_Click" />
+            <asp:Button ID="back_btn" runat="server" Text="Back To Default Page" Style="max-width: 15%;" OnClick="back_btn_Click" />
         </div>
     </form>
 </body>

@@ -27,7 +27,7 @@ namespace Assignment5_6
             HttpCookie myCookies = new HttpCookie("myCookieId");
             myCookies["username"] = username_tb.Text;
             myCookies["password"] = password_tb.Text;
-            myCookies.Expires = DateTime.Now.AddMinutes(3);
+            myCookies.Expires = DateTime.Now.AddMinutes(5);
             Response.Cookies.Add(myCookies);
             cookie_user.Text = "user stored in cookies: " + myCookies["username"];
             cookie_password.Text = "password stored in cookies: " + myCookies["password"];
